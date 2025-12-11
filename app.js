@@ -28,9 +28,9 @@ const resetGame = () => {
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
-    console.log("Box clicked");
     if (turnO) {
       box.innerText = "O";
+      box.innerHTML = "<span style='color:#c1121f;'>O</span>";
       turnO = false;
     } else {
       box.innerText = "X";

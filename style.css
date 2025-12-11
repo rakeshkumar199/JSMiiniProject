@@ -69,7 +69,12 @@ body {
 }
 
 .msg-container {
-  height: 10vmin;
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 .hide {

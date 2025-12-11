@@ -51,6 +51,7 @@ body {
   color: #023047;
   border-radius: 1rem;
   border: none;
+  margin-bottom: 1rem;
 }
 
 #new-btn {
@@ -68,7 +69,7 @@ body {
 }
 
 .msg-container {
-  height: 30vmin;
+  height: 10vmin;
 }
 
 .hide {
@@ -77,5 +78,6 @@ body {
 
 h1 {
   color: #023047;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
 }
